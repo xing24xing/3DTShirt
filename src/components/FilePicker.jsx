@@ -1,4 +1,5 @@
 import React from 'react'
+
 import CustomButton from './CustomButton'
 
 const FilePicker = ({ file, setFile, readFile }) => {
@@ -38,4 +39,4 @@ const FilePicker = ({ file, setFile, readFile }) => {
   )
 }
 
-export default FilePicker;
+export default FilePicker

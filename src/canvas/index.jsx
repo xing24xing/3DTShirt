@@ -1,4 +1,4 @@
-import { Canvas } from '@react-three/fiber';
+import { Canvas } from '@react-three/fiber'
 import { Environment, Center } from '@react-three/drei';
 
 import Shirt from './Shirt';
@@ -23,7 +23,7 @@ const CanvasModel = () => {
         </Center>
       </CameraRig>
     </Canvas>
-  );
-};
+  )
+}
 
-export default CanvasModel;
+export default CanvasModel
